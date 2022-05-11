@@ -1,9 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const swaggerJsDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const {resultsList} = require("./controllers/results");
 const {addUser} = require("./controllers/users");
+const docs = require('./docs');
 require("dotenv").config()
 
 const app = express();
@@ -27,8 +27,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 app.use(router)
+router.use('/api-docs',swaggerUi.serve,swaggerUi.setup(docs));
 
-router.get('/resultsList',resultsList)
+router.get('/getResults',resultsList)
 
 router.post('/createUser',upload, addUser)
 router.post('/createEvals',uploadCSV, insertEvals)
@@ -36,4 +37,5 @@ router.post('/createEvals',uploadCSV, insertEvals)
 
 const server = app.listen(port, () => {
     console.log(`L'API peut maintenant recevoir des requêtes http://localhost:` + port);
+    console.log("Swagger documentation : http://localhost:" + port + "/api-docs");
 });

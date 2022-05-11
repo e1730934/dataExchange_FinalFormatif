@@ -31,6 +31,11 @@ module.exports = {
                         description: "User's password", // desc
                         example: "adm@adm", // example of a email
                     },
+                    profile: {
+                        type: "file", // data-type
+                        description: "User's profile picture", // desc
+                        example: "profile.jpg", // example of a profile picture
+                    }
                 },
             },
             Register: {
@@ -51,27 +56,25 @@ module.exports = {
                         description: "User's password", // desc
                         example: "password12345", // example of a password
                     },
-                    profile:{
+                    profile: {
                         type: "file", // data-type
                         description: "User's profile picture", // desc
                         example: "profile.jpg", // example of a profile picture
                     }
                 }
             },
-            AddEvaluation:{
+            AddEvaluation: {
                 type: "object", // data type
-                properties:{
-                    name: {
-                        type: "string",
-                        description: "The name of the evaluation"
-                    },
-                    id:{
-                        type: "string",
-                        description: "The id of the evaluation"
+                properties: {
+                    file: {
+                        type: "string", // data-type
+                        format: "binary",
+                        description: "Evaluation file",
+                        example: "evaluation.csv", // example of a evaluation file
                     }
                 }
             },
-            GetResultsList:{
+            GetResultsList: {
                 type: "object", // data type
             },
             // error model

@@ -18,10 +18,16 @@ module.exports = {
             }
         ],
         responses: {
-            201: {
+            200: {
                 description: "User created",
                 schema: {
                     $ref: "#/components/schemas/Register"
+                }
+            },
+            400: {
+                description: "Bad request",
+                schema: {
+                    $ref: "#/components/schemas/Error"
                 }
             }
         }

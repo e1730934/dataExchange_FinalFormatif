@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51e7a59-d642-40d4-acf7-db68595450a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalFormatif.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/evals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/results.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/school.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/basicInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/evaluations/addEvaluation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/evaluations/delEvaluation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/evaluations/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/indexAll/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/servers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/students/addStudent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/students/delStudent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/students/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/tags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/users/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/users/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs/users/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/test.csv" afterDir="false" />
+    <list default="true" id="e51e7a59-d642-40d4-acf7-db68595450a1" name="Changes" comment="almost finish (swagger a completer)">
+      <change afterPath="$PROJECT_DIR$/docs/indexAll/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/results/getResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/basicInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/basicInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/evaluations/addEvaluation.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/evaluations/addEvaluation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/evaluations/delEvaluation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/evaluations/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/indexAll/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/servers.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/servers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/students/addStudent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/students/delStudent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/students/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/users/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs/users/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +61,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Windows\Documents\Webstorm\DataExchange\FinalFormatif\docs" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Windows\Documents\Webstorm\DataExchange\FinalFormatif\docs" />
+      <recent name="D:\Windows\Documents\Webstorm\DataExchange\FinalFormatif\temp" />
+      <recent name="D:\Windows\Documents\Webstorm\DataExchange\FinalFormatif" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -97,8 +92,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652272385400</updated>
-      <workItem from="1652272387259" duration="4003000" />
+      <workItem from="1652272387259" duration="6426000" />
     </task>
+    <task id="LOCAL-00001" summary="almost finish (swagger a completer)">
+      <created>1652276624334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652276624334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="almost finish (swagger a completer)" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost finish (swagger a completer)" />
   </component>
 </project>
